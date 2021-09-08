@@ -2063,80 +2063,36 @@ ItemDisplay[SET]: %NAME%
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
 //Heavy Gloves
-ItemDisplay[MAG vgl ILVL=85]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=86]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=87]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=88]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=89]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG vgl ILVL=90]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-//Sharkskin & Vampirebone Gloves
-ItemDisplay[MAG xvg ILVL=85]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=86]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=87]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=88]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=89]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=90]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=91]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xvg ILVL=92]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=85]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=86]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=87]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=88]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=89]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=90]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=91]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG uvg ILVL=92]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG (xvg OR uvg) ILVL=95]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]
+ItemDisplay[MAG (vgl OR xvg OR uvg) ILVL>84]: %ORANGE%Blood Gloves%WHITE% [L%ILVL%]{Nef + Ruby}
 
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
 //Chain Gloves
-ItemDisplay[MAG mgl ILVL=85]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG mgl ILVL=86]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG mgl ILVL=87]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-//Heavy Bracers & Vambraces
-ItemDisplay[MAG xmg ILVL=85]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=86]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=87]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=88]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=89]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=90]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=91]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG xmg ILVL=92]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=85]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=86]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=87]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=88]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=89]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=90]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=91]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG umg ILVL=92]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-ItemDisplay[MAG (xmg OR umg) ILVL=95]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]
-//
+ItemDisplay[MAG (mgl OR xmg OR umg) ILVL>84]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]{Ort + Ruby}
 
 //BELTS
 //Exceptional and Elite Quality belts ONLY
 //Caster Belts (Vampirefang/Sharkskin) + ITH + AMETHYST + JEWEL
-ItemDisplay[MAG uvc ILVL>84]: %ORANGE%Caster Belt%WHITE% [L%ILVL%]
-ItemDisplay[MAG zvb ILVL>84]: %ORANGE%Caster Belt%WHITE% [L%ILVL%]
+ItemDisplay[MAG uvc ILVL>84]: %ORANGE%Caster Belt%WHITE% [L%ILVL%]{Ith + Amethyst}
+ItemDisplay[MAG zvb ILVL>84]: %ORANGE%Caster Belt%WHITE% [L%ILVL%]{Ith + Amethyst}
+
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
-ItemDisplay[MAG umc ILVL>84]: %ORANGE%Blood Belt%WHITE% [L%ILVL%]
-ItemDisplay[MAG zmb ILVL>84]: %ORANGE%Blood Belt%WHITE% [L%ILVL%]
+ItemDisplay[MAG umc ILVL>84]: %ORANGE%Blood Belt%WHITE% [L%ILVL%]{Tal + Ruby}
+ItemDisplay[MAG zmb ILVL>84]: %ORANGE%Blood Belt%WHITE% [L%ILVL%]{Tal + Ruby}
 
 //BOOTS
 //Caster Boots + Thul + Amethyst + Jewel
 //Wyrmhide Boots
-ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]
+ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]{Thul + Amethyst}
 //Demonhide Boots
-ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]
+ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]{Thul + Amethyst}
 //Boots
-ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]
+ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots%WHITE% [L%ILVL%]{Thul + Amethyst}
 
 //HELMS
 //Blood Helm + Ral + RUBY + Jewel
-ItemDisplay[MAG hlm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]
-ItemDisplay[MAG xlm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]
-ItemDisplay[MAG ulm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]
-//
+ItemDisplay[MAG hlm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]{Ral + Ruby}
+ItemDisplay[MAG xlm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]{Ral + Ruby}
+ItemDisplay[MAG ulm ILVL>82]: %ORANGE%Blood Helm%WHITE% [L%ILVL%]{Ral + Ruby}
 
 //Runewords
 ItemDisplay[RW]: %NAME%
