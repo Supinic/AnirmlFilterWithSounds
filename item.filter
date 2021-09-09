@@ -61,6 +61,9 @@ ItemDisplay[ma10 !ID]]: %SOUND-40%%MAP%%PURPLE%¤ %RED%%NAME% %PURPLE%¤
 ItemDisplay[maz]: %SOUND-40%%MAP%%PURPLE%¤ %RED%%NAME% %PURPLE%¤
 ItemDisplay[UNI !ID cm4]: %SOUND-40%%MAP%%RED%  ¤ Horadrim Sigil ¤  %RED%
 
+// Always show Horadric Cube
+ItemDisplay[box]: ¤¤¤ %NAME% ¤¤¤
+
 // Always show Wirt's Leg
 ItemDisplay[leg]: %NAME%
 
@@ -1949,7 +1952,7 @@ ItemDisplay[SET !ID xmg]: %SOUND-35%%MAP%%NL%%RED%O %GREEN%%NAME% %DARK_GREEN%Tr
 
 ItemDisplay[SET !ID amu]: %MAP%%RED%O %GREEN%%NAME% %RED%O
 
-// ---------------------------------------- Catchall unqiue/set ----------------------------------------
+// ---------------------------------------- Catchall unique/set ----------------------------------------
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[SET ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH !ID]: ETH %NAME%
@@ -1975,7 +1978,7 @@ ItemDisplay[MAG (vgl OR xvg OR uvg) ILVL>84]: %ORANGE%Blood Gloves%WHITE% [L%ILV
 
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
 //Chain Gloves
-ItemDisplay[MAG (mgl OR xmg OR umg) ILVL>84]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]{Ort + Ruby}
+ItemDisplay[MAG (mgl OR xmg OR umg) ILVL>84]: %ORANGE%Hit Power Gloves%WHITE% [L%ILVL%]{Ort + Sapphire}
 
 //BELTS
 //Exceptional and Elite Quality belts ONLY
